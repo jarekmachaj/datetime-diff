@@ -9,9 +9,6 @@ Small library that tells the difference between two dates in seconds, minutes, h
   ```
 
 ## Usage
-
-    **Node.js**
-
     ```js
     var diff = require('datetime-diff');
     ```
