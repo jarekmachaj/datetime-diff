@@ -29,3 +29,5 @@ Small library that tells the difference between two dates in seconds, minutes, h
   ```bash
   $ npm test
   ```
+
+  
