@@ -9,12 +9,12 @@ Small library that tells the difference between two dates in seconds, minutes, h
   ```
 
 ## Usage
-    ```js
+    ```javascript
     var diff = require('datetime-diff');
     ```
 
 ## Examples  
-        ```js
+        ```javascript
         var diff = require('datetime-diff');
         var date1 = new Date(2016, 10, 1);
         var date2 = new Date(2016, 10, 2);
