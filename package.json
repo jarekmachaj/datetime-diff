@@ -1,6 +1,6 @@
 {
   "name": "datetime-diff",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Small library that tells the difference between two dates in seconds, minutes, hours and days",
   "main": "index.js",
   "scripts": {
