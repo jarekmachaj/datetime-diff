@@ -5,11 +5,11 @@ Small library that tells the difference between two dates in seconds, minutes, h
 
 ## Installation
 
-  TBD
+  'npm install datetime-diff'
 
 ## Usage
 
-  TBD
+  ''
 
 ## Tests
 
