@@ -1,5 +1,5 @@
-module.exports = {
-    diff: function (dateFrom, dateTo){
+module.exports =
+    function (dateFrom, dateTo){
         var dif = dateFrom.getTime() - dateTo.getTime();
         var seconds = Math.abs(dif / 1000);
         return {
@@ -9,4 +9,3 @@ module.exports = {
             days : seconds / (3600 * 24)
         }
     } 
-}

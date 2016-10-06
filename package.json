@@ -1,16 +1,17 @@
 {
-  "name": "date-diff",
+  "name": "datetime-diff",
   "version": "0.0.1",
   "description": "Small library that tells the difference between two dates in seconds, minutes, hours and days",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jarekmachaj/date-diff.git"
   },
   "keywords": [
+    "date",
     "time",
     "diff",
     "javascript",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/jarekmachaj/date-diff/issues"
   },
-  "homepage": "https://github.com/jarekmachaj/date-diff#readme"
+  "homepage": "https://github.com/jarekmachaj/date-diff#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
 }
